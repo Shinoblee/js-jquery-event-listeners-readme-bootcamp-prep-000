@@ -1,7 +1,9 @@
 //define functions here
 
-getit() =>{
-  
+function getIt(){
+  $('p').on('click', function(){
+    alert('Hey!');
+  });
 }
 
 $(document).ready(function(){
